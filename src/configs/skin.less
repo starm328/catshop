@@ -1,0 +1,124 @@
+/*!
+ * skin v1.0.0 (http://starmweb.cn)
+ * (c) 2017 Jimhea
+ */
+
+/*default*/
+/*
+@mainbgcolor:#560091;
+@auxicolor:rgba(145, 0, 50, 0.8588235294117647);
+@radialone:rgb(151, 0, 254);
+@radialtwo:rgba(90, 15, 121, 0);
+@radialthree:rgb(23, 0, 39);
+@radialfour:rgba(255, 255, 255, 0.0196078431372549);
+@radialfive:rgb(179, 69, 255);
+*/
+/*主色*/
+@mainbgcolor:#5e9fff;
+@auxicolor:#f23030;
+@radialone:rgb(94, 159, 255);
+@radialtwo:rgba(90, 15, 121, 0);
+@radialthree:rgb(5, 86, 203);
+@radialfour:rgba(255, 255, 255, 0.0196078431372549);
+@radialfive: rgb(157, 197, 255);
+	/*main*/
+		.st-default .st-main-bgcolor{background:@mainbgcolor;}
+		.st-default .st-main-textcolor{color:#fff;}
+		.st-default .st-main-icon-textcolor{color:@mainbgcolor;}
+
+		.st-default .mu-text-field-focus-line{background:@mainbgcolor}
+		/*YDUI button 配色*/
+		.st-default .timerbtn .yd-btn-primary{background: @mainbgcolor}
+		.st-default .yd-btn-primary:active{background: @auxicolor}
+		/*dearest 背景*/
+		.st-default .dearest_bgcolor{background: linear-gradient(rgba(103,58,183, 1), rgba(103,58,183, .75));}
+
+		/*二维码页面大背景*/
+		.st-default .extend-bgcolor{background: linear-gradient(rgba(103,58,183, 1), rgba(103,58,183, .75));}
+		.st-default .extend-bgcolor .extend-tishi{background: hsl(262, 96%, 22%);}
+		.st-default .extend-bgcolor .extend-tishi{background: hsl(262, 96%, 22%);}
+
+
+		/*个人中心顶部*/
+		.st-default .user-center .top {
+			background-color: @mainbgcolor;
+			background-image: -webkit-radial-gradient(2% 2%,farthest-corner,@radialone,@radialtwo),
+			-webkit-radial-gradient(50% 130%, farthest-side,@radialthree,@radialfour);
+			box-shadow: 0px 2px 5px 0px @radialfive;
+		}
+
+		/*radio 配色*/
+		.st-default .mu-radio input[type="radio"]:checked + .mu-radio-wrapper .mu-radio-ripple-wrapper{color: @mainbgcolor}
+		.st-default  .mu-radio input[type="radio"]:checked + .mu-radio-wrapper .mu-radio-icon-uncheck{color: @mainbgcolor}
+		.st-default .mu-radio-icon-checked{color: @mainbgcolor}
+
+		/*switch 配色*/
+		.st-default .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track{background-color: @mainbgcolor}
+		.st-default .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-thumb{background-color:@mainbgcolor;color: @mainbgcolor}
+
+		/*checkbox*/
+		.st-default  .mu-checkbox input[type="checkbox"]:checked + .mu-checkbox-wrapper .mu-checkbox-ripple-wrapper{color:@mainbgcolor;}
+		.st-default  .mu-checkbox input[type="checkbox"]:checked + .mu-checkbox-wrapper .mu-checkbox-icon-uncheck{color:@mainbgcolor;}
+		.st-default .mu-checkbox-icon-checked{color:@mainbgcolor;}
+		.st-default .cart .checkbox-ban .mu-checkbox-icon-checked{color:#76c1fc;}
+
+
+		/*规格选择*/
+		.st-default .product-property-index .product-property dl>dd>label>input[type=checkbox]:checked+span{background-color: @auxicolor}
+
+		.st-default .mu-bottom-item-active .mu-bottom-item-icon{color: @mainbgcolor}
+		.st-default .mu-bottom-item-active .mu-bottom-item-text{color: @mainbgcolor}
+
+
+		.st-default .yd-tab-nav .yd-tab-active a{color: @mainbgcolor}
+		.st-default .yd-tab-nav .yd-tab-active:before{background: @auxicolor }
+
+
+		.st-default .product-page .button.red{background-color: @mainbgcolor}
+
+		.st-default .mu-raised-button-primary.st-bgcolorone{background: @mainbgcolor}
+		.st-default .mu-raised-button-primary.st-bgcolortwo{background: @auxicolor}
+	/*auxiliary*/
+		/*辅助 背景颜色*/
+		.st-default .st-auxi-bgcolor{background:@auxicolor;}
+
+		/*辅助 虚化背配色*/
+		.st-default .st-auxi-virtualbgcolor{background:#ffc324;}
+
+		/*辅助 边框*/
+		.st-default .st-auxi-borderbgcolor{border:1px solid @auxicolor;color:@auxicolor;}
+
+		/*辅助 普通文本颜色*/
+		.st-default .st-auxi-textcolor{color:@auxicolor;}
+		/*辅助 状态配色*/
+		.st-default .st-auxi-statecolor{color:@auxicolor;}
+		/*辅助 价格配色*/
+		.st-default .st-auxi-pricecolor{color:@auxicolor;}
+		/*辅助  指控状态背景配色*/
+		.st-default .st-auxi-chargebgcolor{background:#cbcbcb;}
+		/*辅助  指控状态字体配色*/
+		.st-default .st-auxi-chargetextcolor{color:#a0a0a0;}
+
+		/*商品详情选项卡配色  */
+		.st-default .tab-switch>header>a.current{color: @auxicolor;}
+		.st-default .tab-switch>header>a.current::after{background-color: @auxicolor;    border-color: @auxicolor;}
+
+		.st-default .noData-tip .button.red{background: @auxicolor}
+		/*顶部关闭按钮*/
+		.st-default .mkd_ui.wx .addressclose i{background:@auxicolor;}
+		.st-default .fg-red{color: @auxicolor}
+		/*底部提交按钮*/
+		.st-default button.st-fixed,.st-default .mu-raised-button.st-fixed{background: @auxicolor !important}
+
+		/*浮动功能键*/
+		.st-default .mkd_ui.wx .screen{background: @auxicolor;box-shadow: 0 2px 5px 1px @auxicolor;}
+
+		/*订单选项卡配色*/
+		.st-default .order_list .mu-tab-active .mu-tab-text{color: @auxicolor}
+		.st-default .mu-tab-link-highlight{background: @auxicolor	;}
+
+		/*ydui dialog字体*/
+		.yd-confirm-ft>a.primary{color:@auxicolor !important;}
+
+		/*渐变按钮*/
+		.radial-gradient-button{border-radius:40px;display:inline-block;margin:0 auto;color:#fff;padding:0 10px;background: linear-gradient( rgba(103,58,183, 1), rgba(103,58,183, .75));}

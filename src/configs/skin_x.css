@@ -1,0 +1,96 @@
+/*!
+ * skin v1.0.0 (http://starmweb.cn)
+ * (c) 2017 Jimhea
+ */
+
+/*skinx*/
+	/*main*/
+		.st-skinx .st-main-bgcolor{background:#560091;}
+		.st-skinx .st-main-textcolor{color:#fff;}
+		.st-skinx .st-main-icon-textcolor{color:#560091;}
+
+
+		.st-skinx .mu-text-field-focus-line{background:#560091}
+		/*YDUI button 配色*/
+		.st-skinx .timerbtn .yd-btn-primary{background: #560091}
+
+		/*个人中心顶部*/
+		.st-skinx .user-center .top {
+			background-color: #560091;
+			background-image: -webkit-radial-gradient(2% 2%,farthest-corner,rgb(151, 0, 254), rgba(90, 15, 121, 0)), -webkit-radial-gradient(50% 130%, farthest-side,rgb(23, 0, 39),rgba(255, 255, 255, 0.0196078431372549));
+			box-shadow: 0px 2px 5px 0px rgb(179, 69, 255);
+		}
+
+		/*radio 配色*/
+		.st-skinx .mu-radio input[type="radio"]:checked + .mu-radio-wrapper .mu-radio-ripple-wrapper{color: #560091}
+		.st-skinx  .mu-radio input[type="radio"]:checked + .mu-radio-wrapper .mu-radio-icon-uncheck{color: #560091}
+		.st-skinx .mu-radio-icon-checked{color: #560091}
+
+		/*switch 配色*/
+		.st-skinx .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-track{background-color: #560091}
+		.st-skinx .mu-switch input[type="checkbox"]:checked + .mu-switch-wrapper .mu-switch-thumb{background-color:#560091;color: #560091}
+
+		/*checkbox*/
+		.st-skinx  .mu-checkbox input[type="checkbox"]:checked + .mu-checkbox-wrapper .mu-checkbox-ripple-wrapper{color:#560091;}
+		.st-skinx  .mu-checkbox input[type="checkbox"]:checked + .mu-checkbox-wrapper .mu-checkbox-icon-uncheck{color:#560091;}
+		.st-skinx .mu-checkbox-icon-checked{color:#560091;}
+		.st-skinx .cart .checkbox-ban .mu-checkbox-icon-checked{color:#76c1fc;}
+
+
+		/*规格选择*/
+		.st-skinx .product-property-index .product-property dl>dd>label>input[type=checkbox]:checked+span{background-color: rgba(145, 0, 50, 0.8588235294117647)}
+
+		.st-skinx .mu-bottom-item-active .mu-bottom-item-icon{color: #560091}
+		.st-skinx .mu-bottom-item-active .mu-bottom-item-text{color: #560091}
+
+
+		.st-skinx .yd-tab-nav .yd-tab-active a{color: #560091}
+		.st-skinx .yd-tab-nav .yd-tab-active:before{background: rgba(145, 0, 50, 0.8588235294117647) }
+
+
+		.st-skinx .product-page .button.red{background-color: #560091}
+
+		.st-skinx .mu-raised-button-primary.st-bgcolorone{background: #560091}
+	/*auxiliary*/
+		/*辅助 背景颜色*/
+		.st-skinx .st-auxi-bgcolor{background:rgba(145, 0, 50, 0.8588235294117647);}
+
+		/*辅助 虚化背配色*/
+		.st-skinx .st-auxi-virtualbgcolor{background:#ffc324;}
+
+		/*辅助 边框*/
+		.st-skinx .st-auxi-borderbgcolor{border:1px solid rgba(145, 0, 50, 0.8588235294117647);color:rgba(145, 0, 50, 0.8588235294117647);}
+
+		/*辅助 普通文本颜色*/
+		.st-skinx .st-auxi-textcolor{color:rgba(145, 0, 50, 0.8588235294117647);}
+		/*辅助 状态配色*/
+		.st-skinx .st-auxi-statecolor{color:rgba(145, 0, 50, 0.8588235294117647);}
+		/*辅助 价格配色*/
+		.st-skinx .st-auxi-pricecolor{color:rgba(145, 0, 50, 0.8588235294117647);}
+		/*辅助  指控状态背景配色*/
+		.st-skinx .st-auxi-chargebgcolor{background:#cbcbcb;}
+		/*辅助  指控状态字体配色*/
+		.st-skinx .st-auxi-chargetextcolor{color:#a0a0a0;}
+
+		/*商品详情选项卡配色  */
+		.st-skinx .tab-switch>header>a.current{color: rgba(145, 0, 50, 0.8588235294117647);}
+		.st-skinx .tab-switch>header>a.current::after{background-color: rgba(145, 0, 50, 0.8588235294117647);    border-color: rgba(145, 0, 50, 0.8588235294117647);}
+
+		.st-skinx .noData-tip .button.red{background: rgba(145, 0, 50, 0.8588235294117647)}
+		/*顶部关闭按钮*/
+		.st-skinx .mkd_ui.wx .addressclose i{background:rgba(145, 0, 50, 0.8588235294117647);}
+		.st-skinx .fg-red{color: rgba(145, 0, 50, 0.8588235294117647)}
+		/*底部提交按钮*/
+		.st-skinx button.st-fixed,.st-skinx .mu-raised-button.st-fixed{background: rgba(145, 0, 50, 0.8588235294117647) !important}
+
+		/*浮动功能键*/
+		.st-skinx .mkd_ui.wx .screen{background: rgba(145, 0, 50, 0.8588235294117647);box-shadow: 0 2px 5px 1px rgba(145, 0, 50, 0.8588235294117647);}
+
+		/*订单选项卡配色*/
+		.st-skinx .order_list .mu-tab-active .mu-tab-text{color: rgba(145, 0, 50, 0.8588235294117647)}
+		.st-skinx .mu-tab-link-highlight{background: rgba(145, 0, 50, 0.8588235294117647)	;}
+
+		.st-skinx .exchange-index .mu-tab-active .mu-tab-text{color: rgba(145, 0, 50, 0.8588235294117647)	;}
+
+		/*ydui dialog字体*/
+		.yd-confirm-ft>a.primary{color:rgba(145, 0, 50, 0.8588235294117647) !important;}

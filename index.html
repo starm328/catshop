@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html manifest="manifest.appcache">
+	<head>
+		<meta charset="utf-8">
+		<!--开启对web app的支持-->
+		<meta name="viewport" content="width=375, user-scalable=no, target-densitydpi=device-dpi">
+		<!--开启对web app的支持-->
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!--主要是正对苹果手机将数字自动识别为号码-->
+		<meta name="format-detection" content="telephone=no" />
+		<!-- 忽略识别邮箱，主要是针对安卓手机会自动将符合邮箱格式的字符串识别为邮箱地址-->
+		<meta content="email=no" name="format-detection" />
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- QQ强制竖屏 -->
+		<meta name="x5-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- QQ强制全屏 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<meta name="apple-mobile-web-app-title" content="应用标题" />
+		<!-- QQ应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>加载中...</title>
+		<style type="text/css">
+			body{margin:0 auto !important;background-color: #f1f1f1 !important;line-height: 1.2 !important;}
+			*{margin:0;padding:0;}
+
+				.body_bg{width: 100%;height: 100%;position: fixed;z-index:-1;background:#f1f1f1;max-width: 375px;left: 50%;margin-left:-187.5px;box-shadow: 0px 11px 9px #ccc;}
+				/*meui  popupu组件替换样式*/
+				.paypopup .m-popup-mask{max-width: 375px;left:50%;margin-left:-187.5px;}
+				.paypopup .m-popup.popup-show,.paypopup .m-popup.popup-bottom{max-width: 375px;left:50%;margin-left:-187.5px;}
+
+				/*meui弹框样式*/
+				.mu-overlay{max-width: 100% !important;position:fixed;top:0;left:0;height:100%;}
+				.mu-dialog-wrapper{    max-width: 100% !important;}
+				.mu-dialog{max-width:100% !important;}
+
+				/*ydui弹框样式*/
+				.confirm-ft>a.confirm-btn.primary{color:#5E9FFF !important;}
+
+				.noData-tip{   padding-top: 40%;width: 100%;text-align: center;overflow: hidden;}
+				.noData-tip i{display: inline-block;font-size: 48px;width: 110px;height: 110px;line-height: 110px;background-color: #fff;border-radius: 100%;color: #ccc;}
+				.noData-tip em{    display: block;font-size: 16px;color: #666;margin:10px auto 0 auto;}
+				.noData-tip p {    display: block;padding: 10px 20px;font-size: 13px;color: #333;line-height: 16px;}
+		</style>
+		<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+		<!-- <link href="https://fonts.googleapis.com/css?family=Lekton" rel="stylesheet"> -->
+	</head>
+	<body>
+		<div class="body_bg"></div>
+			<main id="app">
+			</main>
+			<script>
+				const dom= document.getElementById( 'app' );
+
+				dom.innerHTML= localStorage.getItem( '<page>'+location.href, dom.innerHTML )||'';
+			</script>
+		<!-- built files will be auto injected -->
+	</body>
+</html>
