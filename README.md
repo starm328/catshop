@@ -1,30 +1,23 @@
-# vue-test-project
 
-> A Vue.js project
+## Hello
+大家好，自我介绍下，我是星翳starm;
 
-## Build Setup
+* 此项目是我在工作中使用VUE制作的一个分销平台的商城，在这里我分享给大家，让大家参与，不完善的地方还请大家提点意见；初步学习VUE的也可以下载我的demo，在自己电脑上运行，看看我写的案例。
+	 *
 
-``` bash
-# install dependencies
-npm install
+[线上访问](http://demo.shop.test.mallkd.cn/ "点击访问")
 
-# serve with hot reload at localhost:8080
-npm run dev
 
-# build for production with minification
-npm run build
+### 运行
+	* npm install
+	* npm run dev
+	* http://localhost:8080
+	* npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 
-# run unit tests
-npm run unit
+### 参考、使用的项目
+	* YDUI
+	*Muse-ui
 
-# run e2e tests
-npm run e2e
 
-# run all tests
-npm test
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Copyright (c) 2018, starm
